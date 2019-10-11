@@ -1,33 +1,48 @@
 -- https://wow.tools/files
 -- https://wow.tools/casc/listfile/download/csv/unverified
 local FileDataComplete = {
-interface/cinematics/logo_800.avi
-interface/cinematics/logo_1024.avi
-interface/cinematics/wow_intro_1024.avi
-sound/music/citymusic/darnassus/darnassus intro.mp3
-sound/music/citymusic/darnassus/darnassus walking 1.mp3
-sound/music/citymusic/darnassus/darnassus walking 2.mp3
-sound/music/citymusic/darnassus/darnassus walking 3.mp3
-sound/music/citymusic/darnassus/druid grove.mp3
-sound/music/citymusic/darnassus/warrior terrace.mp3
-sound/music/citymusic/gnomeragon/gnomeragon01-zone.mp3
-sound/music/citymusic/gnomeragon/gnomeragon02-zone.mp3
-sound/music/citymusic/ironforge/ironforge intro.mp3
-sound/music/citymusic/ironforge/ironforge walking 01.mp3
-sound/music/citymusic/ironforge/ironforge walking 02.mp3
-sound/music/citymusic/ironforge/ironforge walking 03 (glenn).mp3
-sound/music/citymusic/ironforge/ironforge walking 04.mp3
-sound/music/citymusic/ironforge/tinkertownintro_moment.mp3
-sound/music/citymusic/orgrimmar/orgrimmar01-moment.mp3
-sound/music/citymusic/orgrimmar/orgrimmar01-zone.mp3
-sound/music/citymusic/orgrimmar/orgrimmar02-moment.mp3
-sound/music/citymusic/orgrimmar/orgrimmar02-zone.mp3
-sound/music/citymusic/orgrimmar/orgrimmar_intro-moment.mp3
-sound/music/citymusic/stormwind/stormwind01-moment.mp3
-sound/music/citymusic/stormwind/stormwind02-moment.mp3
-sound/music/citymusic/stormwind/stormwind03-moment.mp3
-sound/music/citymusic/stormwind/stormwind04-zone.mp3
-sound/music/citymusic/stormwind/stormwind05-zone.mp3
-sound/music/citymusic/stormwind/stormwind06-zone.mp3
-sound/music/citymusic/stormwind/stormwind07-zone.mp3
-sound/music/citymusic/stormwind/stormwind08-zone.mp3
+	[1] = "interface/cinematics/logo_800.avi",
+	[21] = "interface/cinematics/logo_1024.avi",
+	[22] = "interface/cinematics/wow_intro_1024.avi",
+	[53183] = "sound/music/citymusic/darnassus/darnassus intro.mp3",
+	[53184] = "sound/music/citymusic/darnassus/darnassus walking 1.mp3",
+	[53185] = "sound/music/citymusic/darnassus/darnassus walking 2.mp3",
+	[53186] = "sound/music/citymusic/darnassus/darnassus walking 3.mp3",
+	[53187] = "sound/music/citymusic/darnassus/druid grove.mp3",
+	[53188] = "sound/music/citymusic/darnassus/warrior terrace.mp3",
+	[53189] = "sound/music/citymusic/gnomeragon/gnomeragon01-zone.mp3",
+	[53190] = "sound/music/citymusic/gnomeragon/gnomeragon02-zone.mp3",
+	[53191] = "sound/music/citymusic/ironforge/ironforge intro.mp3",
+	[53192] = "sound/music/citymusic/ironforge/ironforge walking 01.mp3",
+	[53193] = "sound/music/citymusic/ironforge/ironforge walking 02.mp3",
+	[53194] = "sound/music/citymusic/ironforge/ironforge walking 03 (glenn).mp3",
+	[53195] = "sound/music/citymusic/ironforge/ironforge walking 04.mp3",
+	[53196] = "sound/music/citymusic/ironforge/tinkertownintro_moment.mp3",
+	[53197] = "sound/music/citymusic/orgrimmar/orgrimmar01-moment.mp3",
+	[53198] = "sound/music/citymusic/orgrimmar/orgrimmar01-zone.mp3",
+	[53199] = "sound/music/citymusic/orgrimmar/orgrimmar02-moment.mp3",
+	[53200] = "sound/music/citymusic/orgrimmar/orgrimmar02-zone.mp3",
+	[53201] = "sound/music/citymusic/orgrimmar/orgrimmar_intro-moment.mp3",
+	[53202] = "sound/music/citymusic/stormwind/stormwind01-moment.mp3",
+	[53203] = "sound/music/citymusic/stormwind/stormwind02-moment.mp3",
+	[53204] = "sound/music/citymusic/stormwind/stormwind03-moment.mp3",
+	[53205] = "sound/music/citymusic/stormwind/stormwind04-zone.mp3",
+	[53206] = "sound/music/citymusic/stormwind/stormwind05-zone.mp3",
+	[53207] = "sound/music/citymusic/stormwind/stormwind06-zone.mp3",
+	[53208] = "sound/music/citymusic/stormwind/stormwind07-zone.mp3",
+	[53209] = "sound/music/citymusic/stormwind/stormwind08-zone.mp3",
+	[53210] = "sound/music/citymusic/stormwind/stormwind_highseas-moment.mp3",
+	[53211] = "sound/music/citymusic/stormwind/stormwind_intro-moment.mp3",
+	[53212] = "sound/music/citymusic/thunderbluff/thunderbluff intro.mp3",
+	[53213] = "sound/music/citymusic/thunderbluff/thunderbluff walking 01.mp3",
+	[53214] = "sound/music/citymusic/thunderbluff/thunderbluff walking 02.mp3",
+	[53215] = "sound/music/citymusic/thunderbluff/thunderbluff walking 03.mp3",
+	[53216] = "sound/music/citymusic/undercity/undercity01-zone.mp3",
+	[53217] = "sound/music/citymusic/undercity/undercity02-zone.mp3",
+	[53218] = "sound/music/citymusic/undercity/undercity03-zone.mp3",
+	[53219] = "sound/music/citymusic/undercity/undercityintro-moment.mp3",
+	[53220] = "sound/music/gluescreenmusic/bc_main_theme.mp3",
+	[53221] = "sound/music/gluescreenmusic/bccredits_lament_of_the_highborne.mp3",
+	[53222] = "sound/music/gluescreenmusic/wotlk_main_title.mp3",
+	[53223] = "sound/music/gluescreenmusic/wow_main_theme.mp3",
+	[53224] = "sound/music/musical moments/angelic/angelic01.mp3",
