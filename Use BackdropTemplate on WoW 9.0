@@ -5,7 +5,7 @@ https://github.com/Nevcairiel/ShadowedUnitFrames/commit/9157cb5561168a47afe4b967
 	"WarlockPowerFrame",
 
 	-- FrameXML functions
-   +"BackdropTemplateMixin",
++       "BackdropTemplateMixin",
 	"CombatFeedback_OnCombatEvent",
 	"CombatFeedback_OnUpdate",
 	"CompactRaidFrameManager_GetSetting",
@@ -14,8 +14,8 @@ https://github.com/Nevcairiel/ShadowedUnitFrames/commit/9157cb5561168a47afe4b967
 	backdropTbl.bgFile = mediaPath.background
 	if( mediaPath.border ~= "Interface\\None" ) then backdropTbl.edgeFile = mediaPath.border end
 	backdropTbl.tile = backdrop.tileSize > 0 and true or false
-   -backdropTbl.edgeSize = backdrop.edgeSize
-   +backdropTbl.edgeSize = backdrop.edgeSize == 0 and 1 or backdrop.edgeSize
+-       backdropTbl.edgeSize = backdrop.edgeSize
++       backdropTbl.edgeSize = backdrop.edgeSize == 0 and 1 or backdrop.edgeSize
 	backdropTbl.tileSize = backdrop.tileSize
 	backdropTbl.insets.left = backdrop.inset
 	backdropTbl.insets.right = backdrop.inset
@@ -24,8 +24,8 @@ https://github.com/Nevcairiel/ShadowedUnitFrames/commit/9157cb5561168a47afe4b967
 	if( self.infoFrame ) then return end
 
 	-- Show an info frame that users can lock the frames through
-   -local frame = CreateFrame("Frame", nil, UIParent)
-   +local frame = CreateFrame("Frame", nil, UIParent, BackdropTemplateMixin and "BackdropTemplate" or nil)
+-       local frame = CreateFrame("Frame", nil, UIParent)
++       local frame = CreateFrame("Frame", nil, UIParent, BackdropTemplateMixin and "BackdropTemplate" or nil)
 	frame:SetClampedToScreen(true)
 	frame:SetWidth(300)
 	frame:SetHeight(115)
@@ -44,8 +44,8 @@ local function initializeUnit(header, frameName)
 		return
 	end
 
-   -local frame = self:CreateUnit("Button", "SUFUnit" .. unit, petBattleFrame, "SecureUnitButtonTemplate")
-   +local frame = self:CreateUnit("Button", "SUFUnit" .. unit, petBattleFrame, BackdropTemplateMixin and "SecureUnitButtonTemplate,BackdropTemplate" or "SecureUnitButtonTemplate")
+-       local frame = self:CreateUnit("Button", "SUFUnit" .. unit, petBattleFrame, "SecureUnitButtonTemplate")
++       local frame = self:CreateUnit("Button", "SUFUnit" .. unit, petBattleFrame, BackdropTemplateMixin and "SecureUnitButtonTemplate,BackdropTemplate" or "SecureUnitButtonTemplate")
 	frame:SetAttribute("unit", unit)
 	frame.hasStateWatch = unit == "pet"
 
@@ -53,8 +53,8 @@ local function initializeUnit(header, frameName)
 	end
 
 	for id, unit in pairs(ShadowUF[type .. "Units"]) do
-	   -local frame = self:CreateUnit("Button", "SUFHeader" .. type .. "UnitButton" .. id, headerFrame, "SecureUnitButtonTemplate")
-	   +local frame = self:CreateUnit("Button", "SUFHeader" .. type .. "UnitButton" .. id, headerFrame, BackdropTemplateMixin and "SecureUnitButtonTemplate,BackdropTemplate" or "SecureUnitButtonTemplate")
+-               local frame = self:CreateUnit("Button", "SUFHeader" .. type .. "UnitButton" .. id, headerFrame, "SecureUnitButtonTemplate")
++               local frame = self:CreateUnit("Button", "SUFHeader" .. type .. "UnitButton" .. id, headerFrame, BackdropTemplateMixin and "SecureUnitButtonTemplate,BackdropTemplate" or "SecureUnitButtonTemplate")
 		frame.ignoreAnchor = true
 		frame.hasStateWatch = true
 		frame.unitUnmapped = type .. id
@@ -63,8 +63,8 @@ local function initializeUnit(header, frameName)
 	end
 
 	-- Now we can create the actual frame
-   -local frame = self:CreateUnit("Button", "SUFChild" .. type .. string.match(parent:GetName(), "(%d+)"), parent, "SecureUnitButtonTemplate")
-   +local frame = self:CreateUnit("Button", "SUFChild" .. type .. string.match(parent:GetName(), "(%d+)"), parent, BackdropTemplateMixin and "SecureUnitButtonTemplate,BackdropTemplate" or "SecureUnitButtonTemplate")
+-       local frame = self:CreateUnit("Button", "SUFChild" .. type .. string.match(parent:GetName(), "(%d+)"), parent, "SecureUnitButtonTemplate")
++       local frame = self:CreateUnit("Button", "SUFChild" .. type .. string.match(parent:GetName(), "(%d+)"), parent, BackdropTemplateMixin and "SecureUnitButtonTemplate,BackdropTemplate" or "SecureUnitButtonTemplate")
 	frame.unitType = type
 	frame.parent = parent
 	frame.isChildUnit = true
