@@ -10,9 +10,9 @@ TOC for all versions of wow
 
 Future patches will make a tweak to the suffixes supported by each client.
 
-    For Classic, the client will now additionally search for AddonName_Vanilla.toc.
-    For BCC, the client will now additionally search for AddonName_TBC.toc.
-    For Retail, the client will now additionally search for AddonName_Mainline.toc.
+-For Classic, the client will now additionally search for AddonName_Vanilla.toc.
+-For BCC, the client will now additionally search for AddonName_TBC.toc.
+-For Retail, the client will now additionally search for AddonName_Mainline.toc.
 
 The existing suffixes (-Classic.toc, -BCC.toc, and -Mainline.toc) will still be supported.
 Additionally, the separator between the addon name and the client suffix can be either _ or -; so AddonName-TBC.toc is valid as well as AddOnName_BCC.toc.
