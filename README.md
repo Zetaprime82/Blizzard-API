@@ -39,5 +39,5 @@ For avoidance of doubt, these are all the file name formats presently supported 
   3. AddOnName-Vanilla.toc
   4. AddOnName-Classic.toc
   5. AddOnName.toc
-
+------------------------------------------
 ![](https://i.imgur.com/ydZoLRQ.png)
