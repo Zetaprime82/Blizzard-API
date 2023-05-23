@@ -11,9 +11,9 @@ Global resources extracted from World of Warcraft for development purposes.
 
 Future patches will make a tweak to the suffixes supported by each client.
 
--For Classic, the client will now additionally search for AddonName_Vanilla.toc.
--For BCC, the client will now additionally search for AddonName_TBC.toc.
--For Retail, the client will now additionally search for AddonName_Mainline.toc.
+-For Classic, the client will now additionally search for <code class="notranslate"><code class="notranslate"><code class="notranslate">AddonName_Vanilla.toc</code>.
+-For BCC, the client will now additionally search for <code class="notranslate"><code class="notranslate">AddonName_TBC.toc</code>.
+-For Retail, the client will now additionally search for <code class="notranslate">AddonName_Mainline.toc</code>.
 
 The existing suffixes (<code class="notranslate">-Classic.toc</code>, <code class="notranslate">-BCC.toc</code>, and <code class="notranslate">-Mainline.toc</code>) will still be supported.
 Additionally, the separator between the addon name and the client suffix can be either _ or -; so AddonName-TBC.toc is valid as well as AddOnName_BCC.toc.
