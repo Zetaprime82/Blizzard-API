@@ -5,6 +5,7 @@ WoW Class colors https://wowpedia.fandom.com/wiki/Class_colors
 Item quality colors https://wowpedia.fandom.com/wiki/API_GetItemQualityColor
 https://wowpedia.fandom.com/wiki/Patch_10.0.0/API_changes
 Global resources extracted from World of Warcraft for development purposes.
+
 --------------------------------------------------------------------------------------------------------
 [TOC for all versions of wow](https://github.com/Stanzilla/WoWUIBugs/issues/68#issuecomment-889431675)
 
