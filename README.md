@@ -16,6 +16,7 @@ Future patches will make a tweak to the suffixes supported by each client.
 - For Retail, the client will now additionally search for <code class="notranslate">AddonName_Mainline.toc</code>.
   
 The existing suffixes (<code class="notranslate">-Classic.toc</code>, <code class="notranslate">-BCC.toc</code>, and <code class="notranslate">-Mainline.toc</code>) will still be supported.
+
 Additionally, the separator between the addon name and the client suffix can be either <code class="notranslate">_</code> or <code class="notranslate">-</code>; so <code class="notranslate">AddonName-TBC.toc</code> is valid as well as <code class="notranslate">AddOnName_BCC.toc</code>.
 The new suffixes will be supported in an upcoming client hotfix for patch 2.5.1 and 9.1, and are presently implemented on the patch 2.5.2 PTR.
 
