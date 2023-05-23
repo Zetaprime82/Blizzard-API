@@ -23,7 +23,7 @@ The new suffixes will be supported in an upcoming client hotfix for patch 2.5.1 
 
 For avoidance of doubt, these are all the file name formats presently supported on all clients and the order that each client will attempt to load them in currently. On the wiki [we're recommending that people use a single specific suffix for each client](https://wowpedia.fandom.com/wiki/TOC_format#Multiple_client_flavors) for overall consistency, which corresponds to the first file in each sub-list below and is the format used by Blizzard.
 
-- Retail
+<pre class="notranslate">- Retail
   1. AddOnName_Mainline.toc
   2. AddOnName-Mainline.toc
   3. AddOnName.toc
@@ -41,5 +41,6 @@ For avoidance of doubt, these are all the file name formats presently supported 
   3. AddOnName-Vanilla.toc
   4. AddOnName-Classic.toc
   5. AddOnName.toc
+</pre>
 ------------------------------------------
 ![](https://i.imgur.com/ydZoLRQ.png)
