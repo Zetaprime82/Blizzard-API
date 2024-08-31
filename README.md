@@ -21,7 +21,6 @@ WoW.Tools
 - 7 Heirloom 00ccff
 - 8 WoW Token 00ccff
 
-
 [Dragonflight changes](https://wowpedia.fandom.com/wiki/Patch_10.0.0/API_changes)
 
 Global resources extracted from World of Warcraft for development purposes.
