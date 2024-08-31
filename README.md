@@ -3,11 +3,16 @@ Use this https://www.townlong-yak.com/framexml/live this will allow you to searc
 
 Use this [wago.tools](https://wago.tools/) this will allow you to check wow's database.
 
-WoW Class colors https://wowpedia.fandom.com/wiki/Class_colors
+WoW.Tools
+- [Former](https://old.wow.tools/2022.php)
+- [Github](https://github.com/Marlamin/wow.tools.local/blob/main/README.md)
+- [Orgsite](https://wow.tools/)
 
-Item quality colors https://wowpedia.fandom.com/wiki/API_GetItemQualityColor
+[WoW Class colors](https://wowpedia.fandom.com/wiki/Class_colors)
 
-Dragonflight changes https://wowpedia.fandom.com/wiki/Patch_10.0.0/API_changes
+[Item quality colors](https://wowpedia.fandom.com/wiki/API_GetItemQualityColor)
+
+[Dragonflight changes](https://wowpedia.fandom.com/wiki/Patch_10.0.0/API_changes)
 
 Global resources extracted from World of Warcraft for development purposes.
 
