@@ -11,7 +11,8 @@ WoW.Tools
 [WoW Class colors](https://wowpedia.fandom.com/wiki/Class_colors)
 
 [Item quality colors](https://wowpedia.fandom.com/wiki/API_GetItemQualityColor)
-<code class="notranslate">  	
+
+- <code class="notranslate">  	
 0 Poor 9d9d9d
 1 Common ffffff
 2 Uncommon 1eff00
