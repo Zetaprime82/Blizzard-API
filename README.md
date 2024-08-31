@@ -20,7 +20,7 @@ WoW.Tools
 - 6 Artifact #e6cc80
 - 7 Heirloom #00ccff
 - 8 WoW Token #00ccff
-#rrggbb[Text using 6 chars notation (red = ff0000)]
+#0f0[This is green text]
 
 [Dragonflight changes](https://wowpedia.fandom.com/wiki/Patch_10.0.0/API_changes)
 
