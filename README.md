@@ -12,7 +12,7 @@ WoW.Tools
 
 [Item quality colors](https://wowpedia.fandom.com/wiki/API_GetItemQualityColor)
 
-- <code class="notranslate">  	
+<code class="notranslate">  	
 0 Poor 9d9d9d
 1 Common ffffff
 2 Uncommon 1eff00
@@ -23,6 +23,7 @@ WoW.Tools
 7 Heirloom 00ccff
 8 WoW Token 00ccff
 </code>.
+
 [Dragonflight changes](https://wowpedia.fandom.com/wiki/Patch_10.0.0/API_changes)
 
 Global resources extracted from World of Warcraft for development purposes.
