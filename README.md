@@ -20,9 +20,7 @@ WoW.Tools
 - 6 Artifact e6cc80
 - 7 Heirloom 00ccff
 - 8 WoW Token 00ccff
-    <font size="6" face="arial" color="#9d9d9d">
-        Poor
-    </font>
+<h1 style="background-color:#ff6347;">...</h1>
 
 [Dragonflight changes](https://wowpedia.fandom.com/wiki/Patch_10.0.0/API_changes)
 
