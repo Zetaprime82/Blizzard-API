@@ -11,7 +11,7 @@ WoW.Tools
 [WoW Class colors](https://wowpedia.fandom.com/wiki/Class_colors)
 
 [Item quality colors](https://wowpedia.fandom.com/wiki/API_GetItemQualityColor)
-<span class="qc-poor">Poor 9d9d9d</span>
+- 0 Poor 9d9d9d
 - 1 Common ffffff
 - 2 Uncommon 1eff00
 - 3 Rare 0070dd
@@ -20,6 +20,9 @@ WoW.Tools
 - 6 Artifact e6cc80
 - 7 Heirloom 00ccff
 - 8 WoW Token 00ccff
+    <font size="6" face="arial" color="#9d9d9d">
+        Poor
+    </font>
 
 [Dragonflight changes](https://wowpedia.fandom.com/wiki/Patch_10.0.0/API_changes)
 
