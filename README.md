@@ -11,7 +11,17 @@ WoW.Tools
 [WoW Class colors](https://wowpedia.fandom.com/wiki/Class_colors)
 
 [Item quality colors](https://wowpedia.fandom.com/wiki/API_GetItemQualityColor)
-
+<code class="notranslate">  	
+0 Poor 9d9d9d
+1 Common ffffff
+2 Uncommon 1eff00
+3 Rare 0070dd
+4 Epic a335ee
+5 Legendary ff8000
+6 Artifact e6cc80
+7 Heirloom 00ccff
+8 WoW Token 00ccff
+</code>.
 [Dragonflight changes](https://wowpedia.fandom.com/wiki/Patch_10.0.0/API_changes)
 
 Global resources extracted from World of Warcraft for development purposes.
